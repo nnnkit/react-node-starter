@@ -1,0 +1,14 @@
+{
+  "name": "react-node-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nnnkit/react-node-starter.git",
+  "author": "Ankit <iankit17@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "2.6.2",
+    "express": "4.17.1",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  }
+}
