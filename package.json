@@ -6,19 +6,23 @@
   "author": "Ankit <iankit17@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node server/server.js"
+    "dev": "nodemon --exec babel-node server/server.js",
+    "client": "webpack -wd"
   },
   "dependencies": {
     "ejs": "2.6.2",
     "express": "4.17.1",
     "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "react-dom": "16.9.0",
+    "webpack": "4.39.3"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
     "@babel/node": "7.5.5",
     "@babel/preset-env": "7.5.5",
     "@babel/preset-react": "7.0.0",
-    "nodemon": "1.19.1"
+    "babel-loader": "8.0.6",
+    "nodemon": "1.19.1",
+    "webpack-cli": "3.3.7"
   }
 }
