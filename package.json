@@ -5,9 +5,13 @@
   "repository": "https://github.com/nnnkit/react-node-starter.git",
   "author": "Ankit <iankit17@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "pm2 start server/server.js --watch"
+  },
   "dependencies": {
     "ejs": "2.6.2",
     "express": "4.17.1",
+    "pm2": "3.5.1",
     "react": "16.9.0",
     "react-dom": "16.9.0"
   }
