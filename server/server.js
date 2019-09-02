@@ -1,6 +1,7 @@
-const express = require('express')
+import express from 'express'
+import config from './config'
+
 const app = express()
-const config = require('./config')
 
 app.use(express.static('public'))
 app.set('view engine', 'ejs')
